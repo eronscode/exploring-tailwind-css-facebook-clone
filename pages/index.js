@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from '../shared/components/Header'
+import Header from '../shared/components/navigation/Header'
+import Sidebar from '../shared/components/sidebar/Sidebar'
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
       </Head>
 
       <Header />
+      <main className="flex">
+        <Sidebar/>
+      </main>
     </div>
   )
 }
