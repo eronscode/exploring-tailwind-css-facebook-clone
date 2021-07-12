@@ -6,7 +6,7 @@ import {
   ChevronDownIcon,
   HomeIcon,
   UserGroupIcon,
-  ViewGridIcon,
+  ViewGridIcon
 } from "@heroicons/react/solid";
 import {
   FlagIcon,
@@ -15,6 +15,7 @@ import {
   ShoppingCartIcon,
 } from "@heroicons/react/outline";
 import HeaderIcon from "./HeaderIcon";
+import ThemeToggle from "./ThemeToggle";
 
 function Header() {
   return (
@@ -46,6 +47,7 @@ function Header() {
         <ChatIcon className="icon"/>
         <BellIcon className="icon" />
         <ChevronDownIcon className="icon"/>
+        <ThemeToggle />
       </div>
     </div>
   );
