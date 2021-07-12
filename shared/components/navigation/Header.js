@@ -19,7 +19,7 @@ import ThemeToggle from "./ThemeToggle";
 
 function Header() {
   return (
-    <div className='sticky flex top-0 z-50 bg-white items-center p-2 shadow-md lg:px-5'>
+    <div className='sticky flex top-0 z-50 bg-white dark:bg-gray-700 items-center p-2 shadow-md lg:px-5'>
       <div className='flex item-center'>
         <Image src={"/images/fb.png"} width={40} height={40} alt='logo' />
         <div className='flex ml-2 items-center rounded-full bg-gray-100'>
@@ -42,7 +42,7 @@ function Header() {
           </div>
       </div>
       <div className="flex items-center sm:space-x-2 justify-end">
-        <p className="whitespace-nowrap font-semibold pr-3"> Dev Ose</p>
+        <p className="whitespace-nowrap font-semibold pr-3 dark:text-white"> Dev Ose</p>
         <ViewGridIcon className="icon" />
         <ChatIcon className="icon"/>
         <BellIcon className="icon" />
