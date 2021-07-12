@@ -19,7 +19,6 @@ export default function useDarkTheme() {
   const colorTheme = theme === 'dark' ? 'light':'dark';
 
   useEffect(() => {
-      console.log("hi")
     const root = window.document.documentElement;
     root.classList.remove(colorTheme);
     root.classList.add(theme);
@@ -27,6 +26,5 @@ export default function useDarkTheme() {
   }, [colorTheme, theme]);
 
   
-  console.log("theme", theme)
   return [theme, setTheme];
 }
