@@ -3,15 +3,12 @@ import { DotsHorizontalIcon, VideoCameraIcon } from "@heroicons/react/solid";
 import Contact from "./Contact";
 
 const contacts = [
-    {id:1, src:'/images/user.jpeg', name: 'David Mark'},
-    {id:2, src:'/images/user.jpeg', name: 'David Mark'},
-    {id:3, src:'/images/user.jpeg', name: 'David Mark'},
-    {id:4, src:'/images/user.jpeg', name: 'David Mark'},
-    {id:5, src:'/images/user.jpeg', name: 'David Mark'},
-    {id:6, src:'/images/user.jpeg', name: 'David Mark'},
-    {id:7, src:'/images/user.jpeg', name: 'David Mark'},
-    {id:8, src:'/images/user.jpeg', name: 'David Mark'},
-    {id:9, src:'/images/user.jpeg', name: 'David Mark'},
+    {id:1, src:'/images/billgates.jpg', name: 'Bill Gates'},
+    {id:2, src:'/images/zuckerberg.jpeg', name: 'Mark Zuckerberg'},
+    {id:3, src:'/images/profile1.jpg', name: 'Jane Gimson'},
+    {id:4, src:'/images/profile2.jpg', name: 'Yub kun'},
+    {id:5, src:'/images/profile3.jpg', name: 'Samuel jenson'},
+    {id:6, src:'/images/user.jpeg', name: 'Ose Mark'},
 ]
 
 function Widgets() {
