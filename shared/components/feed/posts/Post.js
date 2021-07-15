@@ -6,11 +6,11 @@ function Post({name, message, email, postImage, image, timeStamp}) {
         <div className="flex flex-col">
             <div className="p-5 bg-white mt-5 rounded-t-2xl shadow-sm">
                 <div className="flex items-center space-x-2">
-                    <Image className="rounded-full" src={postImage} width={40} height={40}  alt="post"/>
+                    <Image className="rounded-full" src={postImage} width={40} height={40} alt="post"/>
                     <div>
                         <p className="font-medium">{name}</p>
                         <p className="text-xstext-gray-400">
-                            
+                            {timeStamp}
                         </p>
                     </div>
                 </div>

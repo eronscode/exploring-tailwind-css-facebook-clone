@@ -2,7 +2,7 @@ import Post from "./Post";
 
 const posts=[
     {
-        id: 2,
+        id: 1,
         name:"Ose Matthew",
         message: 'Hello there we have some things to do for you. Hope you\'re great',
         postImage: '/images/user.jpeg',
@@ -18,7 +18,7 @@ const posts=[
         timeStamp:'20/06/2021, 22:34:34'
     },
     {
-        id: 2,
+        id: 3,
         name:"Ose Matthew",
         message: 'Hello there we have some things to do for you. Hope you\'re great',
         postImage: '/images/user.jpeg',
@@ -36,6 +36,7 @@ function Posts() {
                 name={item.name}
                 message={item.message}
                 postImage={item.postImage}
+                image={item.image}
                 timeStamp={item.timeStamp}
                  />
             ))}

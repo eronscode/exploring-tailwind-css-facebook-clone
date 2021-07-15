@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Feed from '../shared/components/feed/Feed'
 import Header from '../shared/components/navigation/Header'
 import Sidebar from '../shared/components/sidebar/Sidebar'
+import Widgets from '../shared/components/widgets/Widgets'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <main className="flex">
         <Sidebar/>
         <Feed />
+        <Widgets />
       </main>
     </div>
   )
